@@ -6,7 +6,6 @@ public class Main {
                 new Book("Книга 1", "Автор 1"),
                 new Book("Book 2", "Author 2")
         };
-        System.out.println(books[0]);
         System.out.println(books[1]);
     }
 }
