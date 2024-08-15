@@ -1,8 +1,8 @@
 package pro.sky.java.course2;
 
 public class Book {
-    String bookName;
-    String author;
+    private String bookName;
+    private String author;
 
     public Book(String bookName, String author) {
         this.bookName = bookName;
@@ -28,4 +28,5 @@ public class Book {
     public String toString() {
         return "Название книги: " + getBookName() + ", Имя Отчество автора: " + getAuthor();
     }
+
 }

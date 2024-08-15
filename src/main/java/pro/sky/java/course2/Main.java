@@ -7,6 +7,8 @@ public class Main {
                 new Book("Book 2", "Author 2"),
                 new Book("Book 3", "Author 3")
         };
-        System.out.println(books[1]);
+        for (int i = 0; i < books.length; i++) {
+            System.out.println(books[i]);
+        }
     }
 }
