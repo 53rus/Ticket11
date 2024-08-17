@@ -8,9 +8,9 @@ public class Main {
                 new Book("Book 3", "Author 3"),
                 new Book("Book 4", "Author 4"),
                 new Book("Book 5", "Author 5"),
-                new Book("Book 4", "Author 4"),
+                new Book("Book 13", "Author 13"),
                 new Book("Book 11", "Author 11"),
-                new Book("Book 121", "Author 121")
+                new Book("Book 12", "Author 12")
         };
         System.out.println(books[1]);
     }
